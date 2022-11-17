@@ -25,6 +25,7 @@ function deleteTask(taskToDelete: string){
   })
 
   setTasks(tasksWithoutDeletedOne);
+  setTaskNumber(taskNumber -1)
 }
 
 function showTasks(){
